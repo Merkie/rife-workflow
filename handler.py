@@ -22,7 +22,7 @@ import traceback
 # Path to the persistent volume for FINAL outputs
 VOLUME_BASE = Path(f"/workspace/ComfyUI-Storage/rife-workflow")
 # Path to the RIFE binary built by the Dockerfile
-RIFE_BIN = "/workspace/rife-ncnn-vulkan/src/build/rife-ncnn-vulkan"
+RIFE_BIN = "/app/rife-ncnn-vulkan"
 # Base for ephemeral (temporary) job data
 EPHEMERAL_BASE = Path("/tmp")
 
